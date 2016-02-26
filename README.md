@@ -22,19 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-very simple:
-Make a call to the TempConverter class with methods for the the converter that you desire. Ex:
+
+Make a call to the TempConverter class with methods for the converter that you desire. Ex:
 ```ruby
 TempConverter.to_celsius(50, 'f')
 ```
-The above basically asks the gem to convert 50 degrees fahrenheit to celsius.
-The to_celsius method lets the object know that you want to convert a degree to celsius. The arguments are (degrees, scale).
-input 'c' for celsius, 'f' for fahrenheit, and 'k' for kelvin.
+The above asks the gem to convert 50 degrees fahrenheit to celsius.
+The to_celsius method lets the object know that you want to convert a degree to celsius. The arguments are (degrees, scale).<br>
+Input and integer for degrees and scale: 'c' for celsius, 'f' for fahrenheit, and 'k' for kelvin.
 
-Allowed method calls:
- to_celsius(degrees, scale)
- to_fahrenheit(degrees, scale)
- to_kelvin(degrees, scale)
+Allowed method calls:<br>
+ to_celsius(degrees, scale) <br>
+ to_fahrenheit(degrees, scale)<br>
+ to_kelvin(degrees, scale)<br>
 
 
 
